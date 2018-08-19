@@ -1,0 +1,41 @@
+body{
+    background-image: url(./images/congruent_pentagon.png)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+header{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background-color: teal;
+    position: fixed;
+    top: 10px;
+    left: 80px;
+
+
+}
+
+.container{
+    width: 960px;
+}
