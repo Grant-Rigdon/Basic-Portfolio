@@ -5,12 +5,12 @@ body{
     
 }
 
-div{
+.box{
     display: block;
     background-color: #fff;
     width: 960px;
     position: relative;
-    left: 10%;
+    left: 17%;
     padding: 15px;
 }
 ul {
@@ -23,13 +23,13 @@ ul {
     width: 100%;
 }
 
-li {
+.top {
     float: right;
     
 
 }
 
-li a {
+.top a {
     display: block;
     color: #777777;
     text-align: center;
@@ -38,7 +38,7 @@ li a {
     border-right: 1px solid #ccc;
 }
 
-li a:hover {
+.top a:hover {
     background-color: #ccc;
 }
 h1{
@@ -63,10 +63,25 @@ img{
     font-family: 'Georgia', Times, Times New Roman, serif;  
     float: left;
     height: 36.5px;
-    margin-left: 10%;
+    margin-left: 17%;
     font-size: 30px;  
     padding-top: 10px;
 
+}
+
+.gallery{
+    margin: 10px;
+    position: relative;
+}
+
+.text-block{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding-left: 48px;
+    padding-right: 48px;
+    bottom: 20px;
+    
 }
 
 input[type=text], select, textarea {
@@ -92,13 +107,12 @@ input[type=submit]:hover{
 footer{
     height: 30px;
     width: 100%;
+    color: #fff;
     background-color: #777;
     border-top: 4px solid #4aaaa5;
     position: fixed;
     bottom: 0px;
     left: 0px;
-    text-align: center;
-
-    
+    text-align: center;    
 }
 
